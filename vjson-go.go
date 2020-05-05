@@ -4,8 +4,6 @@ package vjson
 
 import "encoding/json"
 
-type RawMessage []byte
-
 func Marshal(v interface{}) ([]byte, error) {
 
 	// switch from vjson.RawMessage to json.RawMessage

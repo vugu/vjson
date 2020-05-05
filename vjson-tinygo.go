@@ -2,12 +2,10 @@
 
 package vjson
 
-type RawMessage []byte
-
 func Marshal(v interface{}) ([]byte, error) {
-	panic("Marshal not yet implemented")
+	return marshal(v)
 }
 
 func Unmarshal(data []byte, v interface{}) error {
-	panic("Unmarshal not yet implemented")
+	return unmarshal(data, v)
 }
