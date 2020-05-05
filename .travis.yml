@@ -25,4 +25,3 @@ before_install:
 
 services:
   - docker
-
